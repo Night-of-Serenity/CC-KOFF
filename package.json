@@ -1,0 +1,18 @@
+{
+  "name": "cc-koff",
+  "version": "1.0.0",
+  "description": " My first app",
+  "main": "index.js",
+  "scripts": {
+    "start": "ls -l",
+    "dev": "ls -la"
+  },
+  "author": "Night",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  },
+  "devDependencies": {
+    "webpack": "^5.79.0"
+  }
+}
