@@ -1,4 +1,4 @@
-class ComponentService {
+export class ComponentService {
     constructor() {
         this.priceInput = document.querySelector('#product-price');
         this.quantityInput = document.querySelector('#product-quantity');

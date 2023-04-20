@@ -1,4 +1,6 @@
-class ErrorService {
+import {validateInputs} from '../utils/validate.js';
+
+export class ErrorService {
     constructor() {
         this.errorBox = document.querySelector('#error');
     }
