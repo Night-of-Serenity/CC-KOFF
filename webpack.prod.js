@@ -11,7 +11,7 @@ const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 const commonConfig = require("./webpack.config");
 
 // ###################################
-const devConfig = merge(commonConfig, {
+const proconfig = merge(commonConfig, {
   mode: "production",
   output: {
     path: path.resolve(__dirname, "docs"),
@@ -56,4 +56,4 @@ const devConfig = merge(commonConfig, {
     ],
   },
 });
-module.exports = devConfig;
+module.exports = proconfig;
